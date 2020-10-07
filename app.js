@@ -24,7 +24,7 @@ window.addEventListener('load', () => {
     const bubble = document.createElement("div")
     visual.appendChild(bubble)
     bubble.style.background = colors[index]
-    bubble.style.animation = 'jump 3s ease'
+    bubble.style.animation = 'jump 2s ease'
     bubble.addEventListener('animationend', function () {
       visual.removeChild(this)
     })
